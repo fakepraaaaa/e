@@ -1,0 +1,36 @@
+{
+  "name": "Your game name here",
+  "servePort": 34872,
+  "servePlaceIds": [16609926392],
+  "tree": {
+      "$className": "DataModel",
+
+      "ReplicatedStorage": {
+        "$className": "ReplicatedStorage",
+
+        "Shared": { 
+          "$path": "src/shared"
+        }
+      },
+
+      "ServerScriptService": {
+        "$className": "ServerScriptService",
+
+        "Server": { 
+          "$path": "src/server"
+        }
+      },
+
+      "StarterPlayer": {
+        "$className": "StarterPlayer",
+
+        "StarterPlayerScripts": {
+          "$className": "StarterPlayerScripts",
+
+          "GlobalClient": { 
+            "$path": "src/client"
+          }
+        }
+      }
+  }
+}
